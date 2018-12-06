@@ -9,6 +9,8 @@
 #include <sys/socket.h>
 #define BUFFER_SIZE 256
 
+//coucou !!!
+
 int cree_socket_tcp_client()
 {
   struct sockaddr_in serveur_adresse;
