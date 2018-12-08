@@ -146,7 +146,7 @@ char affiche_map(int sock){
 	int nb;
 	char bufferR[BUFFER_SIZE];
 	char map[SHM_SIZE];
-    print("fonction affiche map");
+    printf("fonction affiche map");
 	//copymap
 	lg = sizeof(struct sockaddr_in);
 	
